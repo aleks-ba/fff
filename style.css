@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 .track-list--item    {
     display: flex;
     border-bottom: 1px solid #bbbbbb;
@@ -45,18 +49,36 @@
     border: none;
 }
 
-.play-all-button {
-    margin-bottom: 15px;
-    width: 80px;
+.input {
+    all: unset;
+    background: #fff;
+    width: 60px;
+    padding: 0 8px;
     height: 30px;
     border-radius: 2px;
-    font-weight: bold;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 16px;
+}
+
+.play-all-button {
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 2px;
     color: grey;
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 16px;
+    text-align: center;
 
+}
+
+.label {
+    color: black;
+    display: block;
+    font-size: 12px;
+    padding-bottom: 4px;
 }
 
 .button-control-add span {
